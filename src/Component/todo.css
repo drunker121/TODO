@@ -1,0 +1,67 @@
+/* Set body background color */
+body {
+    background-color: #352f5b;
+  }
+  
+  /* Set container max-width */
+  .container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Style input fields */
+  input[type="text"],
+  input[type="text"]:focus {
+    color: #fff;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Style todo items */
+  li.list-group-item {
+    background-color: #423a6f;
+    color: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style delete icon */
+  .delete {
+    cursor: pointer;
+    color: #f8f9fa;
+    margin-left: 10px;
+  }
+  
+  /* Style add label */
+  label.add {
+    margin-bottom: 15px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Style filter button */
+  button.filter {
+    background-color: #423a6f;
+    color: #f8f9fa;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Hide filtered items */
+  .filtered {
+    display: none !important;
+  }
+  
